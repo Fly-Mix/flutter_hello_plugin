@@ -2,38 +2,64 @@ name: flutter_hello_plugin
 description: A new Flutter plugin.
 version: 0.0.1
 author: York
-homepage:
-
+homepage: 
 environment:
   sdk: ">=2.1.0 <3.0.0"
-
 dependencies:
   flutter:
     sdk: flutter
-
+  r_dart_library:
+    git:
+      url: https://github.com/YK-Unit/r_dart_library.git
+      ref: 0.1.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter.
 flutter:
-  # This section identifies this Flutter project as a plugin project.
-  # The androidPackage and pluginClass identifiers should not ordinarily
-  # be modified. They are used by the tooling to maintain consistency when
-  # adding or updating assets for this project.
   plugin:
     androidPackage: com.ykunit.flutterhelloplugin
-    pluginClass: FlutterhellopluginPlugin
+    pluginClass: FlutterHelloPlugin
   assets:
-    # 若资源目录放在根目录下，则资源的声明既可使用目录声明的方式，也可使用根资源文件声明的方式
-    # 但是若当前是package/plugin工程，则上层应用在访问这些资源时，必须指定包名
-    - images/test_only_main_asset_1.png
-    - images/test_asset_variants/
-    # 若资源目录放在lib目录下，则资源的声明只可使用包资源文件声明的方式
-    - packages/flutter_hello_plugin/images2/test_only_main_asset_2.png
-    - packages/flutter_hello_plugin/images2/test_asset_variants/test_png_variant_2.png
-
-
+  - assets/images/test_asset_variants/test_png_variant_1.png
+  - assets/images/test_only_main_asset_1.png
+  - packages/flutter_hello_plugin/assets/images/test_asset_variants/test_png_variant_2.png
+  - packages/flutter_hello_plugin/assets/images/test_only_main_asset_2.png
+  - assets/texts/test.json
+  - packages/flutter_hello_plugin/assets/texts/test.yaml
+  fonts:
+  - family: Amiri
+    fonts:
+    - asset: assets/fonts/Amiri/Amiri-Bold.ttf
+    - asset: assets/fonts/Amiri/Amiri-BoldItalic.ttf
+    - asset: assets/fonts/Amiri/Amiri-Italic.ttf
+    - asset: assets/fonts/Amiri/Amiri-Regular.ttf
+  - family: Baloo_Thambi_2
+    fonts:
+    - asset: packages/flutter_hello_plugin/assets/fonts/Baloo_Thambi_2/BalooThambi2-Bold.ttf
+    - asset: packages/flutter_hello_plugin/assets/fonts/Baloo_Thambi_2/BalooThambi2-ExtraBold.ttf
+    - asset: packages/flutter_hello_plugin/assets/fonts/Baloo_Thambi_2/BalooThambi2-Medium.ttf
+    - asset: packages/flutter_hello_plugin/assets/fonts/Baloo_Thambi_2/BalooThambi2-Regular.ttf
+    - asset: packages/flutter_hello_plugin/assets/fonts/Baloo_Thambi_2/BalooThambi2-SemiBold.ttf
+  - family: Dan_Zhai_Hang_Shu_Cai
+    fonts:
+    - asset: packages/flutter_hello_plugin/assets/fonts/Dan_Zhai_Hang_Shu_Cai/Dan_Zhai_Hang_Shu_Cai.ttc
+  - family: Liu_Jian_Mao_Cao
+    fonts:
+    - asset: assets/fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf
+  - family: Lobster
+    fonts:
+    - asset: assets/fonts/Lobster/Lobster-Regular.ttf
+  - family: Pacifico
+    fonts:
+    - asset: packages/flutter_hello_plugin/assets/fonts/Pacifico/Pacifico-Regular.ttf
+flr:
+  core_version: 3.0.0
+  dartfmt_line_length: 100
+  assets:
+  - assets/images
+  - assets/texts
+  - lib/assets/images
+  - lib/assets/texts
+  fonts:
+  - assets/fonts
+  - lib/assets/fonts
