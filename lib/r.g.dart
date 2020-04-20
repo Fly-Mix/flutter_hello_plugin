@@ -223,4 +223,12 @@ class _R_FontFamily {
   /// font family: Pacifico
   // ignore: non_constant_identifier_names
   final pacifico = "Pacifico";
+
+  /// font family: Sky_IconFont
+  // ignore: non_constant_identifier_names
+  final sky_IconFont = "Sky_IconFont";
+
+  /// font family: YorkFish_IconFont
+  // ignore: non_constant_identifier_names
+  final yorkFish_IconFont = "YorkFish_IconFont";
 }

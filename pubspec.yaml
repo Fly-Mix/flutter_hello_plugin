@@ -29,17 +29,17 @@ flutter:
   fonts:
   - family: Amiri
     fonts:
-    - asset: assets/fonts/Amiri/Amiri-Bold.ttf
-    - asset: assets/fonts/Amiri/Amiri-BoldItalic.ttf
-    - asset: assets/fonts/Amiri/Amiri-Italic.ttf
-    - asset: assets/fonts/Amiri/Amiri-Regular.ttf
+    - asset: packages/flutter_hello_plugin/assets/fonts/Amiri/Amiri-Bold.ttf
+    - asset: packages/flutter_hello_plugin/assets/fonts/Amiri/Amiri-BoldItalic.ttf
+    - asset: packages/flutter_hello_plugin/assets/fonts/Amiri/Amiri-Italic.ttf
+    - asset: packages/flutter_hello_plugin/assets/fonts/Amiri/Amiri-Regular.ttf
   - family: Baloo_Thambi_2
     fonts:
-    - asset: packages/flutter_hello_plugin/assets/fonts/Baloo_Thambi_2/BalooThambi2-Bold.ttf
-    - asset: packages/flutter_hello_plugin/assets/fonts/Baloo_Thambi_2/BalooThambi2-ExtraBold.ttf
-    - asset: packages/flutter_hello_plugin/assets/fonts/Baloo_Thambi_2/BalooThambi2-Medium.ttf
-    - asset: packages/flutter_hello_plugin/assets/fonts/Baloo_Thambi_2/BalooThambi2-Regular.ttf
-    - asset: packages/flutter_hello_plugin/assets/fonts/Baloo_Thambi_2/BalooThambi2-SemiBold.ttf
+    - asset: assets/fonts/Baloo_Thambi_2/BalooThambi2-Bold.ttf
+    - asset: assets/fonts/Baloo_Thambi_2/BalooThambi2-ExtraBold.ttf
+    - asset: assets/fonts/Baloo_Thambi_2/BalooThambi2-Medium.ttf
+    - asset: assets/fonts/Baloo_Thambi_2/BalooThambi2-Regular.ttf
+    - asset: assets/fonts/Baloo_Thambi_2/BalooThambi2-SemiBold.ttf
   - family: Dan_Zhai_Hang_Shu_Cai
     fonts:
     - asset: packages/flutter_hello_plugin/assets/fonts/Dan_Zhai_Hang_Shu_Cai/Dan_Zhai_Hang_Shu_Cai.ttc
@@ -52,6 +52,12 @@ flutter:
   - family: Pacifico
     fonts:
     - asset: packages/flutter_hello_plugin/assets/fonts/Pacifico/Pacifico-Regular.ttf
+  - family: Sky_IconFont
+    fonts:
+    - asset: assets/fonts/Sky_IconFont/iconfont.ttf
+  - family: YorkFish_IconFont
+    fonts:
+    - asset: packages/flutter_hello_plugin/assets/fonts/YorkFish_IconFont/iconfont.ttf
 flr:
   core_version: 3.0.0
   dartfmt_line_length: 100
