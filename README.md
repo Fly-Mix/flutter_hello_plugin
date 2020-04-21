@@ -1,4 +1,4 @@
-# flutterhelloplugin
+# flutter_hello_plugin
 
 A new Flutter plugin.
 
