@@ -4,14 +4,11 @@ version: 0.0.1
 author: York
 homepage: 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 dependencies:
   flutter:
     sdk: flutter
-  r_dart_library:
-    git:
-      url: https://github.com/YK-Unit/r_dart_library.git
-      ref: 0.1.1
+  r_dart_library: 0.4.0-nullsafety.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -59,7 +56,7 @@ flutter:
     fonts:
     - asset: packages/flutter_hello_plugin/assets/fonts/YorkFish_IconFont/iconfont.ttf
 flr:
-  core_version: 3.0.0
+  core_version: 3.2.0
   dartfmt_line_length: 100
   assets:
   - assets/images
